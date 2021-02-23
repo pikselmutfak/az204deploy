@@ -7,7 +7,7 @@ app.use(bodyParser.json())
 
 app.get('/api/hello', (req, res) => {
 
-    res.send('Hello World')
+    res.send('Welcome')
 })
 
 app.get('/api/merhaba', (req, res) => {
